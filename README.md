@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AngularAtlas
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
@@ -57,3 +58,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# angular-atlas
+An Angular meta-learning project that showcases and reinforces core Angular concepts. This repository functions as a personal learning tool and practical demonstration of fundamental Angular features.
+>>>>>>> f50da0861421a70d60473670c952ee1b7d33d273
