@@ -29,6 +29,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/angular-atlas/",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
