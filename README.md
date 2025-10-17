@@ -1,64 +1,42 @@
-<<<<<<< HEAD
-# AngularAtlas
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
+# 🌍 Angular Atlas
 
-## Development server
+**Angular Atlas** is a personal meta-learning project designed to **showcase and reinforce core Angular concepts**. It serves as both a **learning tool** and a **practical demonstration** of Angular’s foundational features — including components, services, routing, and deployment to GitHub Pages. 
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## 🌐 Deployment (GitHub Pages)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+This project is deployed via **GitHub Pages**:
+🔗 [https://damiencurtis.github.io/angular-atlas/](https://damiencurtis.github.io/angular-atlas/)
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🧭 Project Overview
 
-```bash
-ng generate component component-name
-```
+| Feature           | Description                                     |
+| ----------------- | ----------------------------------------------- |
+| **Framework**     | Angular                                         |
+| **Language**      | TypeScript                                      |
+| **Deployment**    | GitHub Pages                                    |
+| **Purpose**       | Learning and demonstrating Angular fundamentals |
+| **Current Focus** | Components, Services, Routing, and Theming      |
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 📚 Additional Resources
 
-## Building
+For more on Angular CLI:
+🔗 [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli)
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+### 👤 Author
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+**Damien Curtis**
+🛠️ *Full stack Developer*
+📍 Based in Dublin, Ireland
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# angular-atlas
-An Angular meta-learning project that showcases and reinforces core Angular concepts. This repository functions as a personal learning tool and practical demonstration of fundamental Angular features.
->>>>>>> f50da0861421a70d60473670c952ee1b7d33d273
+> “Angular Atlas is a learning journey through the Angular ecosystem.”
