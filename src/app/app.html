@@ -49,31 +49,36 @@
         </defs>
       </svg>
     -->
-      <svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 60 600 200" aria-label="Angular Atlas Logo">
-      <!-- Angular Shield sides -->
-      <polygon fill="#dd0031" points="125,15 237,60 215,190 125,235 35,190 13,60"/>
-      <polygon fill="#b52e31" points="125,15 237,60 215,190 125,235"/>
-      <!-- Angular "A" main shape moved up 10 pixels -->
-      <polygon fill="#fff" points="125,45 175,180 153,180 144,155 106,155 97,180 75,180"/>
-      <!-- Triangle inside "A" (counter) -->
-      <polygon fill="#dd0031" points="125,95 140.5,138 110,138"/>
 
-      <!-- Gradient definition -->
-      <defs>
-        <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%" stop-color="#ff2ea3" />
-          <stop offset="100%" stop-color="#7837ff" />
-        </linearGradient>
-      </defs>
+      <div class="svg-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" aria-label="Angular Atlas Logo">
+          <g transform="scale(0.6)">
+            <!-- Angular Shield sides -->
+            <polygon fill="#dd0031" points="125,15 237,60 215,190 125,235 35,190 13,60"/>
+            <polygon fill="#b52e31" points="125,15 237,60 215,190 125,235"/>
+            <!-- Angular "A" main shape moved up 10 pixels -->
+            <polygon fill="#fff" points="125,45 175,180 153,180 144,155 106,155 97,180 75,180"/>
+            <!-- Triangle inside "A" (counter) -->
+            <polygon fill="#dd0031" points="125,95 140.5,138 110,138"/>
 
-      <!-- Angular Atlas gradient text -->
-      <text x="270" y="100" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="url(#grad)">
-        Angular
-      </text>
-      <text x="270" y="160" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="url(#grad)">
-        Atlas
-      </text>
-    </svg>
+            <!-- Gradient definition -->
+            <defs>
+              <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#ff2ea3" />
+                <stop offset="100%" stop-color="#7837ff" />
+              </linearGradient>
+            </defs>
+
+            <!-- Angular Atlas gradient text -->
+            <text x="270" y="100" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="url(#grad)">
+              Angular
+            </text>
+            <text x="270" y="160" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="url(#grad)">
+              Atlas
+            </text>
+          </g>
+        </svg>
+      </div>
       <h2>Welcome to {{ title() }}</h2> 
       <p>Angular Atlas is a personal meta-learning project designed to showcase and reinforce core Angular concepts.</p>
       <app-angular-facts></app-angular-facts> 
