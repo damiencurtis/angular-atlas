@@ -29,3 +29,4 @@ jobs:
         with:
           branch: gh-pages  # target branch
           folder: dist/angular-atlas  # build output folder
+          token: ${{ secrets.GITHUB_TOKEN }}
